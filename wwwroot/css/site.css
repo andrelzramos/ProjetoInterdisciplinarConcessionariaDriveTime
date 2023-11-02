@@ -1,0 +1,59 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#logodrivetime{
+    height:70px;
+    width:70px;
+}
+
+.text-orange {
+    color: orange;
+}
+
+/*img{
+    height: 500px;
+    width:800px;
+}*/
+
+form{
+    text-align: center;
+    width: 300px; /* Defina a largura desejada do formulário */
+    margin: 50px auto; /* Centralize o formulário horizontalmente */
+    padding: 20px; /* Adicione um espaço interno para afastar os elementos da borda */
+    border: 1px solid #ff6a00; /* Adicione uma borda com a cor azul celeste (#B0E0E6) */
+    border-radius: 10px; /* Arredonde as bordas para suavizar a aparência */
+    text-align: center; /* Centralize o texto dentro do formulário */
+    background-color:#ffffff;
+}
+
+#bodyContatos {
+    background-image: url('/img/mundi.jpg');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a área do corpo */
+    background-position: center top; /* Centraliza a imagem verticalmente e alinha com o topo */
+    background-attachment: fixed; /* Mantém a imagem de fundo fixa à medida que você rola a página */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+}
+
+#btnCadastrar{
+    background-color:darkorange;
+}
+hr {
+    border: none; /* Remove a borda padrão */
+    border-top: 1px solid #000; /* Adicione uma borda superior de 1 pixel com a cor preta */
+}
